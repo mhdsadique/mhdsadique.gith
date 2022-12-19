@@ -1,32 +1,35 @@
 
 
 @media all and (min-width: 541px)  {
-  .Media {
+  .Big {
     display: none;
 
   }
-  .Small{
+  /* .Small{
     height: 100px; 
     width: 100%;
     display: flex;
     align-items: center;
     justify-content:center;
+    border-color: red;
  
-  }
+  } */
 }
 
-@media all and(min-width: 100px) and (max-width: 540px)  {
-  .Small {
+
+@media all and (max-width: 540px)  {
+  .Sm {
     display: none;
   }
-  .Media{
+  /* .Media{
+    height: 100px; 
+    width: 100%; 
    display: flex;
     align-items: center;
     justify-content: center;
-
-    width: 100%; 
+    border-color: red;
     
-  }
+  } */
 }
 
 

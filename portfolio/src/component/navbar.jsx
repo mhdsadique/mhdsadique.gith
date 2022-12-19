@@ -11,7 +11,7 @@ import { Flex, Spacer } from '@chakra-ui/react'
 
 export const Menudata=()=>{
   return(
-    <Box className='Media'>
+    <Box className="Big">
           <Menu>
   <MenuButton
     as={IconButton}
@@ -20,7 +20,7 @@ export const Menudata=()=>{
     variant='outline'
   />
   <MenuList  >
-    <MenuItem  display="" >
+    <MenuItem  display="Media" >
    
     <NavLink to={"/"} >
         <Button colorScheme='teal' w={"xs"} display="flex" alignItems={"center"} justifyContent="center" > Home</Button>
@@ -58,7 +58,7 @@ export const Navbar = () => {
   const {changeTheme,theme}=useContext(AuthContext)
   return (
     <>
-       <Box className='Small'  color={"#1D4044"} >
+       <Box className="Sm"  color={"#1D4044"} >
       {
         theme?
       
