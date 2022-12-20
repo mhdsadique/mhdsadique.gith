@@ -24,9 +24,9 @@ function App() {
 
   return ( <>
 
-    <Navbar/>
+    <Navbar />
     <Home/>
-    <About/>
+    <About />
     <Skills/>
     <Project/>
     <Contact/>

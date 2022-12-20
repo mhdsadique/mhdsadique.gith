@@ -5,15 +5,15 @@ import  mhdsadique from "./image/mhdsadique.jpg"
 
 const Home = () => {
     return (
-        <div className='hero' >
+        <div className='hero' id='home' >
  <SimpleGrid columns={{lg:2,md:1,sm:1}} >
 <Center>
 
 
-<Box w={'100%'}  >
+<Box w={'100%'} >
   <Center>
 
-  <img width={"25%"} name='muhammrd sadique'  src={mhdsadique} alt="mhd sadique" 
+  <Image height={'80%'} width={"50%"} name='muhammrd sadique'  src={mhdsadique} alt="mhd sadique" 
 style={{borderRadius:"10%"}} />
 </Center>
 </Box>

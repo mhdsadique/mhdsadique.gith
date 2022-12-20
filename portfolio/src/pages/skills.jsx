@@ -3,7 +3,7 @@ import {Heading, Avatar, Box, Button, Center, Flex, Image, SimpleGrid, Text, Gri
 
 export const Skills = () => {
   return (
-    <Box w={'100%'}>
+    <Box id='skills' w={'100%'}>
       <Center>
       <Heading padding='30px'> Technical Skills</Heading>
       </Center>
@@ -138,7 +138,7 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
 
 
 
-
+ <Center>
       <Box w='100%'>
    <Heading size={'md'}padding='20px' textAlign={'center'}>Tools</Heading>
 
@@ -193,15 +193,13 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
 
 <img style={{width:"50px"}} src="https://www.bing.com/th?id=AMMS_9f9139c5534e00448b72088aebb168e0&w=148&h=148&c=7&o=6&dpr=1.3&pid=SANGAM"  alt="react" srcset="" />
 </Button>
-{/* <Button
+<Button
 size='md'
 height='60px'
 width='200px'
-boxShadow='dark-lg' p='6' rounded='md' bg='white'
->
-
-<img style={{width:"50px"}} src="https://www.bing.com/th?id=OSK.245a0c598c9232fbf3012ded3336f4c4&w=148&h=148&c=7&o=6&dpr=1.3&pid=SANGAM"  alt="react" srcset="" />
-</Button> */}
+boxShadow='dark-lg' p='6' rounded='md' bg='white'>
+<img style={{width:"60px"}} src="https://www.bing.com/th?id=OSK.9fdede4794d05f5eec77fbad77985638&w=188&h=132&c=7&o=6&dpr=1.3&pid=SANGAM"  alt="react" srcset="" />
+</Button>
 {/* <Button
 size='md'
 height='60px'
@@ -218,6 +216,7 @@ boxShadow='dark-lg' p='6' rounded='md' bg='white'
 {/* </Box> */}
 
       </Box>
+      </Center>
     </Box>
   )
 }
